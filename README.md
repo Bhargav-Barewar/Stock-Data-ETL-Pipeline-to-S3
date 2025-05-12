@@ -71,8 +71,8 @@ This is a best practice to keep your credentials safe 💡
 
 ### ✅ Step 1: Clone the Repo
 ```bash
-git clone https://github.com/your-username/your-repo-name.git
-cd your-repo-name
+git clone https://github.com/Bhargav-Barewar/Stock-Data-ETL-Pipeline-to-S3.git
+cd Stock-Data-ETL-Pipeline-to-S3
 ```
 
 ### ✅ Step 2: Set up Apache Airflow
