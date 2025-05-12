@@ -1,5 +1,6 @@
 
 # 📈 Daily Stock Price ETL Pipeline using Apache Airflow ☁️
+![screenshot](https://github.com/Bhargav-Barewar/Stock-Data-ETL-Pipeline-to-S3/blob/main/Daily_Stock_Price_ETL_Workflow.png)
 
 This project is an automated **ETL pipeline** built with **Apache Airflow**, designed to:
 
