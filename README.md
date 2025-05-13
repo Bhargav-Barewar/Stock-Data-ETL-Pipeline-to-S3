@@ -82,8 +82,29 @@ Use the official **Airflow Docker setup**:
 👉 [Airflow Docker Setup Guide](https://airflow.apache.org/docs/apache-airflow/stable/start/docker.html)
 
 ---
+### ✅ Step 3: Installing Requests, Boto3, and Pandas in Airflow Docker Container
+## Steps to Install Packages
 
-## 🧩 Step 3: Add Airflow Variables (via GUI)
+1. **Access the container**:
+   ```bash
+   docker exec -it <container_name> bash
+   ```
+
+2. **Check if packages are installed**:
+   ```bash
+   pip show requests
+   pip show boto3
+   ```
+
+3. **Install the packages if not present**:
+   ```bash
+   pip install requests boto3 pandas
+   ```
+
+## Notes
+- These changes will be lost if the container is stopped or recreated. To make them persistent, modify the Dockerfile or `docker-compose.yml` file to include these packages.
+
+## 🧩 Step 4: Add Airflow Variables (via GUI)
 
 Open Airflow in your browser:  
 📍 `http://localhost:8080`
