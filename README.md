@@ -81,7 +81,6 @@ Use the official **Airflow Docker setup**:
 
 👉 [Airflow Docker Setup Guide](https://airflow.apache.org/docs/apache-airflow/stable/start/docker.html)
 
----
 ### ✅ Step 3: Installing Requests, Boto3, and Pandas in Airflow Docker Container
 ## Steps to Install Packages
 
